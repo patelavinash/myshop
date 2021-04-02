@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+    body{
+      background-color: black;
+      color:chartreuse;
+      font-size:30px;
+    }
+   
+  </style>
+  
+</head>
+<body>
+  <h1>Practice </h1>
+  <img src="handwithtree.jpg" height="400" width="400">
+  <br/>
+  <h2>Registration Form</h2>
+  <form method="POST">
+    <label for="FName">First Name: </label>
+    <input type="text" name="FName" required>
+    <br/>
+    <label for="LName">SurName: </label>
+    <input type="text" name="LName" required>
+    <br/>
+    <label for="EMAIL">Email: </label>
+    <input type="email" name="EMAIL" required>
+    <br/>
+    <label for="mob">Mobile No: </label>
+    <input type="tel" name="mob" required>
+    <br/>
+    <label for="gen">Gender: </label>
+    <input type="radio" name="gen"> Male
+    <input type="radio" name="gen">Female
+    <input type="radio" name="gen">Others
+    <br/>
+    <label for="dob">Date of Birth: </label>
+    <input type="date" name="dob" required>
+    <br/>
+    <label for="UName">User Name: </label>
+    <input type="text" name="UName" required>
+    <br/>
+    <label for="pwd">Password: </label>
+    <input type="password" name="pwd" required>
+    <br/>
+    <label for="pin">Pincode</label>
+    <input type="number" name="pin" required>
+    <br/>
+    <label for="CON">Country: </label>
+    <select name="CON" required>
+        <option value="Select">Select Your Country</option>
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="Canada">Canada</option>
+        <option value="Japan">Japan</option>
+        <option value="Australia">Australia</option>
+    </select>
+    <br/>
+    <label>Hobbies</label>
+    <br/>
+    <input type="checkbox">Singing<br/>
+    <input type="checkbox">Dancing<br/>
+    <input type="checkbox">Cricket<br/>
+    <input type="checkbox">Painting<br/>
+    <input type="checkbox">Reading Books<br/>
+    <input type="checkbox">Gardening<br/>
+    <input type="checkbox">Playing Games<br/>
+    <input type="checkbox">Cooking<br/>
+    <input type="checkbox">Travelling<br/>
+    <input type="checkbox">Gaming<br/>
+    <input type="checkbox">Swimming<br/>
+    <label>Complain/Suggestion</label>
+    <textarea rows="5" cols="10" required></textarea>
+    <br/>
+    <input type="submit" value="Register">
+    <input type="reset" value="Clear">
+  </form>
+</body>
+</html>
